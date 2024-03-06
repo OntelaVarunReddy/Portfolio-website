@@ -1,0 +1,283 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+/*navigation bar*/
+#navbar{
+    height: 60px;
+    background-color: black;
+    display: flex;
+}
+#nav-name{
+    height:50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width: 200px;
+    color:white;
+    padding-left: 70px;
+    padding-top: 2px;
+}
+#V{
+    color: rgba(230, 14, 78);
+}
+#nav-ops{
+    padding-top: 5px;
+    height: 50px;
+    width:35%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 475px;
+}
+#nav-ops a{
+    display: inline;
+    color:white;
+    font-size: 14px;
+    text-decoration: none;
+    transition: color 0.2s ease-in 0s;
+}
+#nav-ops a:hover{
+    color: rgb(230, 14, 78);
+}
+
+/*home*/
+#main{
+    height:600px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+#info{
+    margin-left:150px;
+}
+#info p{
+    padding-top: 10px;
+}
+#hi{
+    color:white;
+    font-size: 26px;
+}
+#im{
+    color:white;
+    font-size: 42px;
+    display: inline;
+}
+#vr{
+    font-size: 42px;
+    padding-left: 15px;
+    color: rgb(230,14,78);
+}
+#role{
+    color:white;
+    font: size 20px;
+    padding-top: 5px;
+}
+#special{
+    display: flex;
+}
+#social{
+    height: 50px;
+    width: 110px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+#social a{
+    font-size: 25px;
+    color: white;
+}
+#social a:hover{
+    color: rgb(230, 14, 78);
+}
+#pic{
+    height: 450px;
+    width:300px;
+    margin-left: 325px;
+    background-image: url("myself.png");
+    background-size: cover;
+    border: 1px solid rgb(230, 14, 78);
+}
+
+/*about*/
+#about{
+    height: 375px;
+    background-color: rgb(230, 14, 78);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#about h1{
+    margin-top: 70px;
+    color:black;
+    text-decoration: underline;
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+#about p{
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/*skills*/
+#skills{
+    height: 550px;
+    background-color: black;
+}
+#h1-container{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#skills h1{
+    color:rgb(230, 14, 78);
+    font-weight: 900;
+    text-decoration: underline;
+}
+#skills-container{
+    height: 450px;
+    width: 575px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 375px;
+}
+#cpp{
+    height: 140px;
+    width:140px;
+}
+#cpp-icon{
+    height: 115px;
+    width:120px;
+    background-image: url("cpp-icon.png");
+    background-size: cover;
+}
+#cpp p{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 0px 0px 39px;
+}
+#sql{
+    height: 140px;
+    width:170px;
+}
+#sql-icon{
+    height: 115px;
+    width:170px;
+    background-image: url("sql-icon.png");
+    background-size: cover;
+}
+#sql p{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 0px 0px 50px;
+}
+#html{
+    height: 140px;
+    width:140px;
+}
+#html-icon{
+    height: 115px;
+    width:120px;
+    background-image: url("html-icon.png");
+    background-size: cover;
+}
+#html p{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 0px 0px 30px;
+}
+#css{
+    height: 140px;
+    width:140px;
+    margin-left:100px;
+}
+#css-icon{
+    height: 115px;
+    width:120px;
+    background-image: url("css-icon.png");
+    background-size: cover;
+}
+#css p{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 0px 0px 39px;
+}
+#js{
+    height: 140px;
+    width:140px;
+    margin-right: 100px;
+}
+#js-icon{
+    height: 115px;
+    width:120px;
+    background-image: url("js-icon.png");
+    background-size: cover;
+}
+#js p{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 0px 0px 39px;
+}
+#projects-h1{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+    color: black;
+    padding-top: 10px;
+}
+#projects-h1 h1{
+    font-weight: 900;
+}
+#projects{
+    height: 500px;
+    background-color: rgba(230, 14, 78);
+}
+#projects-info{
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#projects-info a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+#contact-h1{
+    display: flex;
+    height: 100px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    color: rgb(230, 14, 78);
+}
+#contact-h1 h1{
+    font-weight: 900;
+    text-decoration: underline;
+}
+#contact-info{
+    color:white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80px;
+}
